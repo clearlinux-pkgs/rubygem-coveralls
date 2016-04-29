@@ -4,7 +4,7 @@
 #
 Name     : rubygem-coveralls
 Version  : 0.8.12
-Release  : 8
+Release  : 9
 URL      : https://rubygems.org/downloads/coveralls-0.8.12.gem
 Source0  : https://rubygems.org/downloads/coveralls-0.8.12.gem
 Summary  : No detailed summary available
