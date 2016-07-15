@@ -1,4 +1,4 @@
 # File auto-generated with 'Watchfile generator'
-# 2016-03-11 21:44:42.970399
-# {'~>0.8', '>=0', 'development', '~>0.7'}
+# 2016-07-14 22:13:53.929174
+# {'~>0.7', '>=0', 'development', '~>0.8'}
 watchurl=https://rubygems.org/gems/coveralls/versions/(0\.[0-9]{1,2}(?:\.[0-9a-zA-Z]+)*)
