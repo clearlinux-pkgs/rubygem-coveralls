@@ -1,0 +1,42 @@
+From d46f090c23b1850d55f440b1c81170c08c5e8f2c Mon Sep 17 00:00:00 2001
+From: Athenas Jimenez Gonzalez <athenas.jimenez.gonzalez@intel.com>
+Date: Fri, 15 Jul 2016 22:18:10 +0000
+Subject: [PATCH] Change tins version
+
+---
+ rubygem-coveralls.gemspec | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/rubygem-coveralls.gemspec b/rubygem-coveralls.gemspec
+index 6ffe3e2..149b73e 100644
+--- a/rubygem-coveralls.gemspec
++++ b/rubygem-coveralls.gemspec
+@@ -26,14 +26,14 @@ Gem::Specification.new do |s|
+     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
+       s.add_runtime_dependency(%q<json>.freeze, ["< 3", ">= 1.8"])
+       s.add_runtime_dependency(%q<simplecov>.freeze, ["~> 0.12.0"])
+-      s.add_runtime_dependency(%q<tins>.freeze, ["~> 1.6.0"])
++      s.add_runtime_dependency(%q<tins>.freeze, [">= 1.6.0"])
+       s.add_runtime_dependency(%q<term-ansicolor>.freeze, ["~> 1.3"])
+       s.add_runtime_dependency(%q<thor>.freeze, ["~> 0.19.1"])
+       s.add_development_dependency(%q<bundler>.freeze, ["~> 1.7"])
+     else
+       s.add_dependency(%q<json>.freeze, ["< 3", ">= 1.8"])
+       s.add_dependency(%q<simplecov>.freeze, ["~> 0.12.0"])
+-      s.add_dependency(%q<tins>.freeze, ["~> 1.6.0"])
++      s.add_dependency(%q<tins>.freeze, [">= 1.6.0"])
+       s.add_dependency(%q<term-ansicolor>.freeze, ["~> 1.3"])
+       s.add_dependency(%q<thor>.freeze, ["~> 0.19.1"])
+       s.add_dependency(%q<bundler>.freeze, ["~> 1.7"])
+@@ -41,7 +41,7 @@ Gem::Specification.new do |s|
+   else
+     s.add_dependency(%q<json>.freeze, ["< 3", ">= 1.8"])
+     s.add_dependency(%q<simplecov>.freeze, ["~> 0.12.0"])
+-    s.add_dependency(%q<tins>.freeze, ["~> 1.6.0"])
++    s.add_dependency(%q<tins>.freeze, [">= 1.6.0"])
+     s.add_dependency(%q<term-ansicolor>.freeze, ["~> 1.3"])
+     s.add_dependency(%q<thor>.freeze, ["~> 0.19.1"])
+     s.add_dependency(%q<bundler>.freeze, ["~> 1.7"])
+-- 
+2.9.0
+
